@@ -1,0 +1,12 @@
+.deleteIcon :hover{
+    cursor: pointer;
+    color : rgb(238, 20, 20);
+    
+}
+
+
+
+.deleteIcon{
+    margin-left: auto;
+    height: 20px;
+}
