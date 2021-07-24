@@ -146,7 +146,11 @@ input:focus {
   color: #fff;
 }
 
-.fa-trash-alt,
+.fa-trash-o{
+  background-color: transparent;
+}
+
+.fa-trash-o,
 .fa-edit {
   /* margin-left: -2.5rem; */
   cursor: pointer;
@@ -164,10 +168,11 @@ input:focus {
 
 .fa-edit {
   margin-left: -3.5rem;
+  background-color: transparent;
 }
 
 
-.eachItem:hover .fa-trash-alt {
+.eachItem:hover .fa-trash-o {
   color: rgb(214, 47, 61);
 }
 
